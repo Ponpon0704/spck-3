@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/index.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <title>Login Register</title>
+</head>
+<body>
+    <div id="app"></div>
+
+    <!-- Firebase config -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyDg5WHfkrJ6Tp7o__eQjiW8FBE95t934LI",
+            authDomain: "spck4-8652f.firebaseapp.com",
+            databaseURL: "https://spck4-8652f-default-rtdb.firebaseio.com",
+            projectId: "spck4-8652f",
+            storageBucket: "spck4-8652f.appspot.com",
+            messagingSenderId: "744006599899",
+            appId: "1:744006599899:web:4bfbc0e96cc9927a7bf8fe",
+            measurementId: "G-S01HK1FEGD"
+        };
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <script src="./scripts/index.js" type="module"></script>
+</body>
+</html>
