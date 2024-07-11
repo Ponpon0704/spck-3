@@ -27,6 +27,8 @@ class Register {
         this.$errorMessage.classList.add("error");
 
         this.$formRegister = document.createElement("form");
+        this.$formRegister = document.createElement("form");
+        this.$formRegister.classList.add("body1")
 
         this.$txtGotoLogin = document.createElement("a");
         this.$txtGotoLogin.innerHTML = "You already have an account?";
