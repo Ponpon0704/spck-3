@@ -10,7 +10,6 @@ body{
 }
 *,*::after,*::before{
     font-weight: 400;
-    color: #ebebed;
 }
 
 .navbar__nav-list {
